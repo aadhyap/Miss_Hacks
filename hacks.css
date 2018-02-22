@@ -1,0 +1,257 @@
+/* Container holding the image and the text */
+
+
+.container {
+    
+    font-family: 'MegrimMedium'; 
+    color: white;
+    font-weight: normal; 
+    font-style: normal;
+    font-size: 100px;
+    font-weight: bold;
+    
+}
+.titleborder {
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 15px;
+   
+}
+.datecontainer {
+    
+    font-family: 'MegrimMedium'; 
+    color: white;
+    font-weight: normal; 
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.container1 {
+    
+    font-family: 'MegrimMedium'; 
+    color: black;
+    font-weight: normal; 
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.abouttitle {
+    margin-left: 45%;
+    font-family: 'Bradley Hand, cursive'; 
+    color: white;
+    font-weight: normal; 
+    font-style: normal;
+    font-size: 90px;
+    font-weight: bold;
+    
+}
+
+.ourgoal {
+    font-family: 'Bradley Hand, cursive'; 
+    font-size: 90px;
+    color: white;
+    font-weight: bold;
+   
+}
+.about{
+    text-align: left;
+    font-family: 'Ariel'; 
+    color: black;
+    font-weight: normal; 
+    font-style: normal;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url(bluh.jpg);
+    min-height: 900px; 
+    /* Full height */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+<!--Navbar-->
+head {margin:0;}
+.topnav {
+  overflow: hidden;
+  background-color: lightcoral;
+  
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: palevioletred;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: palevioletred;
+  color: white;
+}
+<!--Navbarend-->
+body {margin:0;}
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+ul li {
+    list-style: none;
+    border: 2px solid white;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 30px;
+    border-radius: 15px;
+}
+ul li a {
+    text-decoration: none;
+    padding: 15px 35px;
+    display: block;
+    text-align: center;
+    font-size: 200%;
+   
+    
+}
+ul li:nth-child(1) a{
+    box-shadow:0px 0px 5px rgb(255,105,180);
+    background-color:white;
+    border-radius: 15px;
+    opacity: .5;
+    
+    
+        
+}
+ul li:nth-child(1):hover a{
+    box-shadow:0px 0px 5px rgb(255,105,180);
+    background-color:gainsboro;
+    border-radius: 15px;
+    opacity: .5;
+}
+}
+.mainborder {
+border-top-style:dotted;
+border-bottom-style:dotted;
+border-left-style:dotted;
+border-right-style:dotted;
+border-width:18px;
+border-color:black;
+padding:6px
+}
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Top right text */
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    font-family: 'MegrimMedium'; 
+    color: plum;
+    font-weight: normal; 
+    font-style: normal;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.date {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px
+}
+
+.register{
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+/*Below Tile*/
+.talkabout {
+    background-color: CC6699;
+    width: 70%;
+    border-radius: 5%;
+    padding: 25px;
+    position: absolute;
+    left: 15%;
+    font-family: monospace;
+    color: white;
+}
+.mission {
+    background-color: orange;
+    width: 70%;
+    border-radius: 5%;
+    padding: 25px;
+    position: absolute;
+    top: 210%;
+    left: 15%;
+    font-family: monospace;
+    color: white;
+    
+}
+/*FAQS*/
+.corners{
+    border-radius: 15px 50px;
+    background: #DB7093;
+    padding: 20px; 
+    width: 200px;
+    height: 500px; 
+    float: left;
+    margin: 30px;
+    width: 25%;
+}
+.faqs {
+    font-family: 'Bradley Hand, cursive'; 
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+   
+}
+.under {
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    
+}
